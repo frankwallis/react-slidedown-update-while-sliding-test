@@ -10,7 +10,6 @@ class App extends Component {
 
     this.state = {
       page: 0,
-      random: 0,
     };
   }
 
@@ -27,7 +26,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          {random}
+          {random} - {page % 2}
           <h1 className="App-title" onClick={() => this.setPage(page + 1)}>Click me to change page!</h1>
         </header>
         <SlideDown>
