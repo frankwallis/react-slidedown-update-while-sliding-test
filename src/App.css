@@ -38,6 +38,14 @@
   background-color: blue;
 }
 
+.blue.even {
+  visibility: hidden;
+}
+
 .red {
   background-color: red;
+}
+
+.red.odd {
+  visibility: hidden;
 }
